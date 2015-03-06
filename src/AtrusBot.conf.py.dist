@@ -1,0 +1,63 @@
+###################
+## MySQL settings
+
+# Database name
+conf_database="IrcLogs"
+
+# Table prefix
+conf_table_prefix="ab_"
+
+#############################################################
+
+
+
+
+
+
+###################
+## IRC settings
+# Server password
+conf_hpassword = ""
+# Table prefix
+conf_channel="#starryexpanse"
+conf_nickname = "AtrusBot" 
+
+# Channel key
+conf_ckey = None 
+
+# Password to send to NickServ upon connection
+conf_npasswd = "" 
+#############################################################
+
+
+
+
+
+
+
+
+
+
+
+###################
+## General settings
+# Character used to get AtrusBot's attention (prefix a message with to indicate a command)
+conf_accessor = "!"
+#############################################################
+
+
+
+
+
+
+
+
+
+
+
+
+##################
+## Please ignore these. They are remnants from when AtrusBot was not just for logging.
+conf_webtextassets_uri = "http://example.com/irclogs/AtrusBot/text/"
+conf_webtextassets_path = "/var/www/irclogs/AtrusBot/text/"
+#############################################################
