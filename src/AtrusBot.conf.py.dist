@@ -7,6 +7,10 @@ conf_database="IrcLogs"
 # Table prefix
 conf_table_prefix="ab_"
 
+conf_database_user=""
+conf_database_password=''
+conf_database_host="localhost"
+
 #############################################################
 
 
