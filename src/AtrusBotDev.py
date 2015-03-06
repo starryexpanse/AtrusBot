@@ -323,7 +323,7 @@ if __name__ == '__main__':
 
     # connect factory to this host and port
     #reactor.connectSSL("pos.starryexpanse.com", 65003, f, ssl.ClientContextFactory())
-    reactor.connectTCP("irc.starryexpanse.com", 6667, f)
+    reactor.connectTCP(conf_host, conf_host_port, f)
 
     # run bot
     reactor.run()

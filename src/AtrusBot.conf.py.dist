@@ -22,9 +22,10 @@ conf_database_host="localhost"
 ## IRC settings
 # Server password
 conf_hpassword = ""
-# Table prefix
 conf_channel="#starryexpanse"
 conf_nickname = "AtrusBot" 
+conf_host="irc.example.com"
+conf_host_port=6667
 
 # Channel key
 conf_ckey = None 
